@@ -708,7 +708,7 @@ if scriptversion ~= currentversion then
 	local bind = Instance.new("BindableFunction")
 	function bind.OnInvoke(response)
 		if response == "Yes" and typeof(setclipboard) == "function" then
-			setclipboard("https://pastebin.com/raw/FwYmgtCX")
+			setclipboard("https://pastebin.com/raw/Atfx5rtR")
 			game.StarterGui:SetCore("SendNotification", {
 				Title = "MM2 Utilities",
 				Text = "Copied the script to your clipboard!",
